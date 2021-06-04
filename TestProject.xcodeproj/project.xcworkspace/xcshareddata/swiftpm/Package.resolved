@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "f96b619bcb2383b43d898402283924b80e2c4bae",
+          "version": "5.4.3"
+        }
+      },
+      {
+        "package": "Mantis",
+        "repositoryURL": "https://github.com/guoyingtao/Mantis.git",
+        "state": {
+          "branch": null,
+          "revision": "0ee3df9d0aa9209a01d4a2ea49fce70d6398d49d",
+          "version": "1.7.1"
+        }
+      },
+      {
+        "package": "RxKeyboard",
+        "repositoryURL": "https://github.com/RxSwiftCommunity/RxKeyboard.git",
+        "state": {
+          "branch": null,
+          "revision": "ed5940a7e29c3a4b4925b2d76260f793d311d58e",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "c6c0c540109678b96639c25e9c0ebe4a6d7a69a9",
+          "version": "5.0.0"
+        }
+      },
+      {
+        "package": "SnapKit",
+        "repositoryURL": "https://github.com/SnapKit/SnapKit.git",
+        "state": {
+          "branch": null,
+          "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
+          "version": "5.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

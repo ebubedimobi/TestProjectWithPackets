@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		B25D1892266A375B006A0DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25D1890266A375B006A0DB7 /* Main.storyboard */; };
 		B25D1894266A375C006A0DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B25D1893266A375C006A0DB7 /* Assets.xcassets */; };
 		B25D1897266A375C006A0DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25D1895266A375C006A0DB7 /* LaunchScreen.storyboard */; };
+		B25D18A3266A3B07006A0DB7 /* WithPods in Frameworks */ = {isa = PBXBuildFile; productRef = B25D18A2266A3B07006A0DB7 /* WithPods */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		B25D1893266A375C006A0DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B25D1896266A375C006A0DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B25D1898266A375C006A0DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B25D189E266A37BD006A0DB7 /* WithPods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WithPods; sourceTree = "<group>"; };
+		B25D18A4266A3DB7006A0DB7 /* WithoutPods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WithoutPods; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B25D18A3266A3B07006A0DB7 /* WithPods in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +44,11 @@
 		B25D187E266A375B006A0DB7 = {
 			isa = PBXGroup;
 			children = (
+				B25D18A4266A3DB7006A0DB7 /* WithoutPods */,
+				B25D189E266A37BD006A0DB7 /* WithPods */,
 				B25D1889266A375B006A0DB7 /* TestProject */,
 				B25D1888266A375B006A0DB7 /* Products */,
+				B25D189F266A37F0006A0DB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,13 @@
 			path = TestProject;
 			sourceTree = "<group>";
 		};
+		B25D189F266A37F0006A0DB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +97,9 @@
 			dependencies = (
 			);
 			name = TestProject;
+			packageProductDependencies = (
+				B25D18A2266A3B07006A0DB7 /* WithPods */,
+			);
 			productName = TestProject;
 			productReference = B25D1887266A375B006A0DB7 /* TestProject.app */;
 			productType = "com.apple.product-type.application";
@@ -288,6 +305,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +324,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +358,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B25D18A2266A3B07006A0DB7 /* WithPods */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WithPods;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B25D187F266A375B006A0DB7 /* Project object */;
 }
